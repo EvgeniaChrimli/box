@@ -1,0 +1,163 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  background: radial-gradient(
+    circle,
+    rgba(138, 79, 210, 1) 18%,
+    rgba(148, 96, 211, 1) 28%,
+    rgba(250, 248, 143, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.664);
+  border-radius: 5px;
+}
+.formreg {
+  display: none;
+}
+
+.form__account {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form__account-link {
+  cursor: pointer;
+  min-width: 80px;
+  border: none;
+  border-bottom: 1px solid #9460d3;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.error {
+  text-align: center;
+  padding-top: 3px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.reload {
+  cursor: pointer;
+  min-width: 80px;
+  border: none;
+  border-bottom: 1px solid #9460d3;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.elem {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.block {
+  display: none;
+}
+.popup {
+  position: relative;
+  z-index: 1;
+  background-color: #9460d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonModal {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px;
+  min-width: 80px;
+  border-radius: 5px;
+  border: none;
+  color: #9460d3;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.input {
+  cursor: pointer;
+  min-width: 300px;
+  min-height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.input::placeholder {
+  text-align: center;
+}
+
+.form__input-login {
+}
+
+.form__input-pass {
+}
+
+.form__input-check {
+  font-size: 15px;
+  color: #fff;
+}
+.check {
+}
+
+.form__button {
+  cursor: pointer;
+  padding: 5px;
+  min-width: 80px;
+  border-radius: 5px;
+  border: none;
+  background-color: #9460d3;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form__forget {
+  margin-bottom: 20px;
+}
+
+.form__forget-link {
+  cursor: pointer;
+  min-width: 80px;
+  border: none;
+  border-bottom: 1px solid #9460d3;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 10px;
+}
